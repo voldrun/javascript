@@ -45,8 +45,8 @@
     + `undefined`
 
     ```javascript
-    var foo = 1,
-        bar = foo;
+    const foo = 1;
+    let bar = foo;
 
     bar = 9;
 
@@ -59,8 +59,8 @@
     + `function`
 
     ```javascript
-    var foo = [1, 2],
-        bar = foo;
+    const foo = [1, 2];
+    const bar = foo;
 
     bar[0] = 9;
 
@@ -1514,4 +1514,3 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 **[[⬆]](#Оглавление)**
-
